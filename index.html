@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Levici Brand Guide</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #0D0D0D; color: #FFFFFF; min-height: 100vh; padding: 48px 24px; }
+  .page { max-width: 960px; margin: 0 auto; }
+  .header { border-bottom: 1px solid #2B2B2B; padding-bottom: 32px; margin-bottom: 48px; }
+  .header h1 { font-size: 32px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 6px; }
+  .header h1 span { color: #479ECD; }
+  .header p { font-size: 13px; color: #888888; letter-spacing: 0.06em; }
+  .section-label { font-size: 11px; font-weight: 600; color: #888888; text-transform: uppercase; letter-spacing: 0.12em; margin: 0 0 16px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 48px; }
+  .card { border: 1px solid #2B2B2B; border-radius: 10px; padding: 20px 22px; text-decoration: none; color: inherit; display: block; transition: border-color 0.15s; }
+  .card:hover { border-color: #479ECD; }
+  .card.complete { border-color: #2B2B2B; }
+  .card.pending { opacity: 0.45; cursor: default; pointer-events: none; }
+  .card-status { font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px; }
+  .card-status.done { color: #4A9E6B; }
+  .card-status.soon { color: #888888; }
+  .card h2 { font-size: 15px; font-weight: 600; margin-bottom: 4px; letter-spacing: 0.04em; }
+  .card p { font-size: 12px; color: #888888; line-height: 1.6; }
+  .footer { border-top: 1px solid #2B2B2B; padding-top: 24px; }
+  .footer p { font-size: 11px; color: #888888; }
+  .footer a { color: #479ECD; text-decoration: none; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 420px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <h1>Levici <span>Brand</span> Guide</h1>
+    <p>Minneapolis / St. Paul &mdash; 2026</p>
+  </div>
+
+  <p class="section-label">Sections</p>
+  <div class="grid">
+
+    <a href="sections/colors.html" class="card complete">
+      <p class="card-status done">&#10003; Complete</p>
+      <h2>Colors</h2>
+      <p>Primary, secondary, semantic palette with HEX, RGB, and CMYK values.</p>
+    </a>
+
+    <div class="card pending">
+      <p class="card-status soon">Coming soon</p>
+      <h2>Typography</h2>
+      <p>AZONIX headings, Quicksand body, scale and usage rules.</p>
+    </div>
+
+    <div class="card pending">
+      <p class="card-status soon">Coming soon</p>
+      <h2>Logo Usage</h2>
+      <p>Clearspace, sizing, approved placements and lockups.</p>
+    </div>
+
+    <div class="card pending">
+      <p class="card-status soon">Coming soon</p>
+      <h2>Imagery</h2>
+      <p>Photography style, B&amp;W guidelines, and art direction.</p>
+    </div>
+
+    <div class="card pending">
+      <p class="card-status soon">Coming soon</p>
+      <h2>Voice &amp; Tone</h2>
+      <p>Brand language, messaging principles, and copy guidelines.</p>
+    </div>
+
+    <div class="card pending">
+      <p class="card-status soon">Coming soon</p>
+      <h2>Components</h2>
+      <p>Buttons, badges, cards, and UI patterns.</p>
+    </div>
+
+    <div class="card pending">
+      <p class="card-status soon">Coming soon</p>
+      <h2>Icons &amp; Graphics</h2>
+      <p>Font Awesome usage, graphic style principles.</p>
+    </div>
+
+    <div class="card pending">
+      <p class="card-status soon">Coming soon</p>
+      <h2>Photography</h2>
+      <p>Shoot direction, B&amp;W treatment, subject and composition guidance.</p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p>Levici &mdash; <a href="https://levici.tomthegreat.com">levici.tomthegreat.com</a></p>
+  </div>
+
+</div>
+</body>
+</html>
