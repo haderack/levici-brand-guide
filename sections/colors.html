@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Levici Brand Guide — Colors</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #F2F2F2; color: #0D0D0D; padding: 48px 24px; }
+  .page { max-width: 960px; margin: 0 auto; background: #FFFFFF; border-radius: 12px; padding: 48px; }
+  .brand-header { border-bottom: 2px solid #0D0D0D; padding-bottom: 24px; margin-bottom: 40px; display: flex; align-items: flex-end; justify-content: space-between; }
+  .brand-header h1 { font-size: 28px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .brand-header span { font-size: 12px; color: #888888; letter-spacing: 0.08em; text-transform: uppercase; }
+  .section-label { font-size: 11px; font-weight: 600; color: #888888; text-transform: uppercase; letter-spacing: 0.12em; margin: 0 0 12px; }
+  .section-narrative { font-size: 13px; color: #888888; line-height: 1.7; margin: -6px 0 14px; }
+  .summary-card { background: #F2F2F2; border-radius: 8px; padding: 20px 24px; margin-bottom: 36px; }
+  .summary-card p { font-size: 14px; line-height: 1.8; color: #2B2B2B; }
+  .swatch-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 32px; }
+  .swatch-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px; }
+  .swatch-card { border: 1px solid #E0E0E0; border-radius: 10px; overflow: hidden; }
+  .swatch-block { height: 80px; width: 100%; }
+  .swatch-info { padding: 10px 12px 13px; background: #FFFFFF; }
+  .lv-name { font-size: 13px; font-weight: 600; color: #0D0D0D; margin: 0 0 6px; }
+  .color-code { font-size: 11px; color: #888888; margin: 0 0 1px; font-family: 'Courier New', monospace; line-height: 1.7; }
+  .color-use { font-size: 11px; color: #B0B0B0; margin: 5px 0 0; font-style: italic; }
+  .divider { border: none; border-top: 1px solid #F2F2F2; margin: 32px 0; }
+  .combo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px; }
+  .access-pair { border-radius: 10px; overflow: hidden; border: 1px solid #E0E0E0; }
+  .access-top { padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; }
+  .access-label { font-size: 28px; font-weight: 600; }
+  .access-badge { font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 4px; }
+  .access-bottom { padding: 8px 16px; font-size: 10px; font-family: 'Courier New', monospace; color: #888888; background: #FFFFFF; }
+  .do-dont-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 32px; }
+  .rule-card { border-radius: 10px; padding: 16px 18px; }
+  .rule-card.do { border: 1px solid #4A9E6B; background: #FFFFFF; }
+  .rule-card.dont { border: 1px solid #B03A2E; background: #FFFFFF; }
+  .rule-title { font-size: 13px; font-weight: 600; margin: 0 0 10px; }
+  .rule-title.do { color: #4A9E6B; }
+  .rule-title.dont { color: #B03A2E; }
+  .rule-body { font-size: 12px; color: #888888; line-height: 1.9; }
+  .examples-badges { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+  .badge { font-size: 12px; font-weight: 600; padding: 5px 12px; border-radius: 4px; }
+  .eyebrow-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .eyebrow-card { border-radius: 10px; overflow: hidden; border: 1px solid #E0E0E0; }
+  .eyebrow-top { padding: 6px 14px; }
+  .eyebrow-top span { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+  .eyebrow-body { padding: 12px 14px; background: #FFFFFF; }
+  .eyebrow-body h4 { font-size: 14px; font-weight: 600; color: #0D0D0D; margin: 0 0 3px; }
+  .eyebrow-body p { font-size: 12px; color: #888888; margin: 0; }
+  @media (max-width: 640px) {
+    .swatch-grid-4, .swatch-grid-3, .combo-grid, .do-dont-grid, .eyebrow-grid { grid-template-columns: 1fr 1fr; }
+    .page { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="brand-header">
+    <h1>Levici — Brand Guide</h1>
+    <span>Color Section · 2026</span>
+  </div>
+
+  <p class="section-label">Summary</p>
+  <div class="summary-card">
+    <p>Levici's palette is built on contrast and restraint. Black, white, and silver form the structural foundation. Levici Blue is the single accent color — its power comes from being used sparingly. Grey tones provide flexibility and depth without adding visual noise. Semantic colors (green, yellow, red) are reserved strictly for functional UI states and athletic apparel.</p>
+  </div>
+
+  <hr class="divider">
+
+  <p class="section-label">Primary colors</p>
+  <div class="swatch-grid-4">
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#0D0D0D;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Black</p>
+        <p class="color-code">HEX #0D0D0D</p>
+        <p class="color-code">RGB 13 / 13 / 13</p>
+        <p class="color-code">CMYK 0 / 0 / 0 / 95</p>
+        <p class="color-use">Backgrounds, headings, primary text</p>
+      </div>
+    </div>
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#FFFFFF; border-bottom:1px solid #E0E0E0;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">White</p>
+        <p class="color-code">HEX #FFFFFF</p>
+        <p class="color-code">RGB 255 / 255 / 255</p>
+        <p class="color-code">CMYK 0 / 0 / 0 / 0</p>
+        <p class="color-use">Page backgrounds, text on dark surfaces</p>
+      </div>
+    </div>
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#479ECD;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Levici Blue</p>
+        <p class="color-code">HEX #479ECD</p>
+        <p class="color-code">RGB 71 / 158 / 205</p>
+        <p class="color-code">CMYK 65 / 23 / 0 / 20</p>
+        <p class="color-use">Brand accent, CTAs, labels, small bg chips</p>
+      </div>
+    </div>
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#B0B0B0;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Silver</p>
+        <p class="color-code">HEX #B0B0B0</p>
+        <p class="color-code">RGB 176 / 176 / 176</p>
+        <p class="color-code">CMYK 0 / 0 / 0 / 31</p>
+        <p class="color-use">Borders, dividers, icon strokes on dark surfaces</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="section-label">Secondary colors — greys</p>
+  <p class="section-narrative">The grey scale gives the brand flexibility without introducing new hues. Used for backgrounds, body copy, supporting text, cards, and dividers.</p>
+  <div class="swatch-grid-3">
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#2B2B2B;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Dark Grey</p>
+        <p class="color-code">HEX #2B2B2B</p>
+        <p class="color-code">RGB 43 / 43 / 43</p>
+        <p class="color-code">CMYK 0 / 0 / 0 / 83</p>
+        <p class="color-use">Secondary backgrounds, section fills</p>
+      </div>
+    </div>
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#888888;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Mid Grey</p>
+        <p class="color-code">HEX #888888</p>
+        <p class="color-code">RGB 136 / 136 / 136</p>
+        <p class="color-code">CMYK 0 / 0 / 0 / 47</p>
+        <p class="color-use">Body copy on white, captions</p>
+      </div>
+    </div>
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#F2F2F2; border-bottom:1px solid #E0E0E0;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Light Grey</p>
+        <p class="color-code">HEX #F2F2F2</p>
+        <p class="color-code">RGB 242 / 242 / 242</p>
+        <p class="color-code">CMYK 0 / 0 / 0 / 5</p>
+        <p class="color-use">Card backgrounds, separators</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="section-label">Semantic colors — status & apparel</p>
+  <p class="section-narrative">Reserved for function, not decoration. Green = success. Yellow = caution. Red = error and athletic apparel.</p>
+  <div class="swatch-grid-3">
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#4A9E6B;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Green</p>
+        <p class="color-code">HEX #4A9E6B</p>
+        <p class="color-code">RGB 74 / 158 / 107</p>
+        <p class="color-code">CMYK 53 / 0 / 32 / 38</p>
+        <p class="color-use">Confirmations, approvals, success</p>
+      </div>
+    </div>
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#D4A843;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Yellow</p>
+        <p class="color-code">HEX #D4A843</p>
+        <p class="color-code">RGB 212 / 168 / 67</p>
+        <p class="color-code">CMYK 0 / 21 / 68 / 17</p>
+        <p class="color-use">Warnings, caution, pending states</p>
+      </div>
+    </div>
+    <div class="swatch-card">
+      <div class="swatch-block" style="background:#B03A2E;"></div>
+      <div class="swatch-info">
+        <p class="lv-name">Red</p>
+        <p class="color-code">HEX #B03A2E</p>
+        <p class="color-code">RGB 176 / 58 / 46</p>
+        <p class="color-code">CMYK 0 / 67 / 74 / 31</p>
+        <p class="color-use">Errors, rejections, athletic apparel</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <p class="section-label">Color combinations & accessibility</p>
+  <div class="combo-grid">
+    <div class="access-pair">
+      <div class="access-top" style="background:#0D0D0D;">
+        <span class="access-label" style="color:#FFFFFF;">Aa</span>
+        <span class="access-badge" style="background:#4A9E6B; color:#FFFFFF;">AAA 19.6:1</span>
+      </div>
+      <div class="access-bottom">White on Black</div>
+    </div>
+    <div class="access-pair">
+      <div class="access-top" style="background:#FFFFFF; border-bottom:1px solid #E0E0E0;">
+        <span class="access-label" style="color:#0D0D0D;">Aa</span>
+        <span class="access-badge" style="background:#4A9E6B; color:#FFFFFF;">AAA 19.6:1</span>
+      </div>
+      <div class="access-bottom">Black on White</div>
+    </div>
+    <div class="access-pair">
+      <div class="access-top" style="background:#0D0D0D;">
+        <span class="access-label" style="color:#479ECD;">Aa</span>
+        <span class="access-badge" style="background:#4A9E6B; color:#FFFFFF;">AA 3.9:1</span>
+      </div>
+      <div class="access-bottom">Blue on Black</div>
+    </div>
+    <div class="access-pair">
+      <div class="access-top" style="background:#FFFFFF; border-bottom:1px solid #E0E0E0;">
+        <span class="access-label" style="color:#479ECD;">Aa</span>
+        <span class="access-badge" style="background:#4A9E6B; color:#FFFFFF;">AA 4.7:1</span>
+      </div>
+      <div class="access-bottom">Blue on White</div>
+    </div>
+    <div class="access-pair">
+      <div class="access-top" style="background:#479ECD;">
+        <span class="access-label" style="color:#FFFFFF;">Aa</span>
+        <span class="access-badge" style="background:#4A9E6B; color:#FFFFFF;">AA 3.1:1</span>
+      </div>
+      <div class="access-bottom">White on Blue — labels only</div>
+    </div>
+    <div class="access-pair">
+      <div class="access-top" style="background:#0D0D0D;">
+        <span class="access-label" style="color:#B0B0B0;">Aa</span>
+        <span class="access-badge" style="background:#4A9E6B; color:#FFFFFF;">AAA 7.2:1</span>
+      </div>
+      <div class="access-bottom">Silver on Black</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="do-dont-grid">
+    <div class="rule-card do">
+      <p class="rule-title do">Do</p>
+      <p class="rule-body">
+        Lead with black and white — let contrast do the work.<br>
+        Use Levici Blue once per layout on the most important element.<br>
+        Use white text on blue for small chips and eyebrow labels.<br>
+        Use black text on yellow for contrast.<br>
+        Pair silver with black for borders and rules on dark surfaces.<br>
+        Maintain WCAG AA minimums on all text combinations.<br>
+        Reserve green, yellow, and red for status and apparel only.
+      </p>
+    </div>
+    <div class="rule-card dont">
+      <p class="rule-title dont">Don't</p>
+      <p class="rule-body">
+        Use Levici Blue as a full-section or hero background.<br>
+        Place blue on grey — contrast fails.<br>
+        Use gradients, transparency, or color mixing on brand colors.<br>
+        Introduce colors outside the defined palette.<br>
+        Use semantic colors decoratively.<br>
+        Use silver on white — too low contrast for text or borders.<br>
+        Stack multiple accent colors in a single layout.
+      </p>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <p class="section-label">Examples</p>
+  <div class="examples-badges">
+    <span class="badge" style="background:#4A9E6B; color:#FFFFFF;">Confirmed</span>
+    <span class="badge" style="background:#4A9E6B; color:#FFFFFF;">Approved</span>
+    <span class="badge" style="background:#D4A843; color:#0D0D0D;">Pending</span>
+    <span class="badge" style="background:#D4A843; color:#0D0D0D;">Warning</span>
+    <span class="badge" style="background:#B03A2E; color:#FFFFFF;">Error</span>
+    <span class="badge" style="background:#B03A2E; color:#FFFFFF;">Declined</span>
+    <span class="badge" style="background:#479ECD; color:#FFFFFF;">Levici Prep</span>
+    <span class="badge" style="background:#0D0D0D; color:#B0B0B0;">Est. Minneapolis</span>
+  </div>
+  <div class="eyebrow-grid">
+    <div class="eyebrow-card">
+      <div class="eyebrow-top" style="background:#479ECD;">
+        <span style="color:#FFFFFF;">Levici Prep</span>
+      </div>
+      <div class="eyebrow-body">
+        <h4>Youth Wrestling</h4>
+        <p>K–12 Minneapolis metro.</p>
+      </div>
+    </div>
+    <div class="eyebrow-card">
+      <div class="eyebrow-top" style="background:#4A9E6B;">
+        <span style="color:#FFFFFF;">Registration Open</span>
+      </div>
+      <div class="eyebrow-body">
+        <h4>Summer 2026</h4>
+        <p>Base, Prep, and HS tracks.</p>
+      </div>
+    </div>
+    <div class="eyebrow-card">
+      <div class="eyebrow-top" style="background:#D4A843;">
+        <span style="color:#0D0D0D;">Filling Fast</span>
+      </div>
+      <div class="eyebrow-body">
+        <h4>Prep Track</h4>
+        <p>Limited spots remaining.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
